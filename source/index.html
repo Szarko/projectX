@@ -1,0 +1,77 @@
+<!-- 
+   -=-=-=-=-=-=-=-=-=-=-
+   Mitchell Tasic - DBC WEEK 6 -
+   08/05/14
+   project X
+   state: v66a
+   -=-=-=-=-=-=-=-=-=-=- 
+
+  -= Skeleton =-
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> project X </title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/styles.css"  media="screen">
+    <script type="text/javascript" src = "js/jquery.js" ></script>
+    <script type="text/javascript" src="js/jquery.animate-colors.js"></script>
+    <script type="text/javascript" src="js/gridlogic.js"></script>
+    <script type="text/javascript" src="js/display.js"></script>
+    <script type="text/javascript" src="js/application.js"></script>
+  </head>
+  <body>   
+      <div id="header">
+        <h1>project X</h1>
+      </div>
+      <div class="controls">
+            <input type="submit" value="random X" id="random-x" class="control-button"/>
+            <input type="submit" value="destroy X" id="destroy-x" class="control-button"/>
+            <input type="submit" value="sequence X" id="sequence-x" class="control-button"/>
+            <label>X:
+              <select id="x-color" class="settings-list">
+                <option value="1" selected>white</option>
+                <option value="2">red</option>
+                <option value="3">blue</option>
+                <option value="4">green</option>
+                <option value="5">yellow</option>
+                <option value="6">purple</option>
+                <option value="7">grey</option>
+                <option value="8">pink</option>
+              </select>
+            </label>
+            <label>Y:
+              <select id="y-color" class="settings-list">
+                <option value="1" selected>white</option>
+                <option value="2">red</option>
+                <option value="3">blue</option>
+                <option value="4">green</option>
+                <option value="5">yellow</option>
+                <option value="6">purple</option>
+                <option value="7">grey</option>
+                <option value="8">pink</option>
+              </select>
+            </label>
+            <label> size X:
+              <select id="render-size" class="settings-list">
+                <option value="4" selected>4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+              </select>
+            </label>
+            <label> style X:
+              <select id="render-style" class="settings-list">
+                <option value="cross" selected>Cross</option>
+                <option value="letterX">The X</option>
+              </select>
+            </label>
+          </div>       
+          <div id="grid">
+          </div>
+          <div id="footer">
+            <h5> v66a - Disclaimer: Staring at this screen for more then 6 hours a day can lead to insanity. </h5>
+          </div>
+  </body>
+</html>
